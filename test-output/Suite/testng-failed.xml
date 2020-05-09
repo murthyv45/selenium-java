@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="selenium.java.testng.FirstTestNG">
+      <class name="selenium.java.testng.FirstTest">
         <methods>
-          <include name="myFirstCase"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
+          <include name="myFirstCase"/>
         </methods>
-      </class> <!-- selenium.java.testng.FirstTestNG -->
+      </class> <!-- selenium.java.testng.FirstTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

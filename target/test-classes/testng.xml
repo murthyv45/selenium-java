@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="selenium.java.testng.FirstTestNG"/>
+      <class name="selenium.java.testng.FirstTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
