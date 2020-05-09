@@ -7,7 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Browser2 {
+public class BrowserTest {
 	@BeforeTest
 	  public void beforeTest() 
 	  {System.out.println("i am running before test");
