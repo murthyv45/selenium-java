@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 
-public class FirstTest1 {
+public class FirstTest {
 	
 	@BeforeTest
 	  public void beforeTest() 

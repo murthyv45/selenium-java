@@ -7,13 +7,14 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Browser2Test {
+public class Browser2 {
 	@BeforeTest
 	  public void beforeTest() 
 	  {System.out.println("i am running before test");
 	  }
 	WebDriver driver;
 @Test
+
 public void firstTestCase(){
 	System.out.println("this is running ");
 	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\murth\\Downloads\\chromedriver_win32\\chromedriver.exe");	
