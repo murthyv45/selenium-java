@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.java.testng.FirstTestNG">
+      <class name="selenium.java.testng.Browser2Test">
         <methods>
-          <include name="myFirstCase"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
+          <include name="firstTestCase"/>
         </methods>
-      </class> <!-- selenium.java.testng.FirstTestNG -->
+      </class> <!-- selenium.java.testng.Browser2Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
